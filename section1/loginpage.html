@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body{
+            /* background-color: liner gradient; */
+           background: linear-gradient(to bottom right, rgba(7, 106, 236, 0),rgba(2, 21, 27, 0)),url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v894-kul-06_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=8b7562341aaac573262ef67a00d25f19);
+           background-size: cover; 
+           height :100vh;
+            /* font-family: Lato; */
+        }
+
+        *{
+            font-family: Lato;
+        }
+        .mycard
+        {
+            /* border: 2px solid green; */
+            width: 30%;
+            padding: 2%;
+            height: 80%; 
+            margin: 200px auto;
+            border-radius: 20px;
+            box-sizing: border-box;
+            /* background: rgba(76, 175, 80, 0.3);   */
+
+             background-color: white; 
+            
+            box-shadow: 5px 5px 20px  5px rgb(15, 15, 15);
+        }
+        .my-input , .my-btn
+        {
+
+            display: block;
+            border-radius: 40px;
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .my-input
+        {
+            
+          
+            margin-bottom: 15px;
+            border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+        border-bottom-style: groove;
+        border-radius: 0px;
+
+        }
+        .my-btn
+        {
+            margin: 50px auto;
+            border: 1px solid red;
+           color:white;
+           background-color: red;
+           font-weight: bold;
+
+           border: 1px solid black;
+        }
+        .card-title
+        {
+            word-spacing: 8px;
+            text-align:center;
+            font-weight: bold;
+            font-size: 20px;
+            
+        }
+        .my-link1
+        {
+            float:right;
+            text-decoration: underline red;
+            color: red;
+
+        }
+        .mid-text
+        {
+            margin: 8%;
+            color: green;
+            text-decoration: underline green;
+            text-align: center;
+        }
+        .social-icon
+        {
+
+           display: inline;
+           padding: 1%;
+           margin-left: 18%; 
+           color: white;
+            border-radius: 10px;            
+            
+        }
+        .fb
+        {
+            color: rgba(84, 10, 221, 0.89);    
+            
+        }
+        .google
+        {
+            color:#FF1493;
+            /* margin-left: 120px; */
+        }
+        .tr
+        {
+            color: rgb(81, 97, 241);
+            /* margin-left: 120px; */
+        }
+        .my-input:focus
+        {
+            outline: none;
+        }
+        .my-btn:hover
+        {
+            color: red;
+            background-color: white;
+            border: 1px solid red;
+            box-shadow: none;
+        }
+        
+    </style>
+
+
+</head>
+<body>
+
+    <div class="mycard">
+
+        <p class="card-title">LOGIN PAGE<p>
+           
+            <input type="text" class="my-input" placeholder="Username">
+        
+        <input type="email"class="my-input" placeholder="Email eg. username@gmail.com"> 
+        <input type="password" class="my-input" placeholder="Password">
+        
+        
+        <div class="remcheck">
+                <input type="checkbox">
+             <span >Remember me</span>
+            <a href="" class="my-link1">Reset Password</a>
+        </div>
+        
+            <P class="mid-text">or sign in with</P>
+            <div>
+
+                <span class="fb social-icon">
+                    
+                    <i class="fab fa-facebook fa-2x"></i>
+                </span>
+                <span class="google social-icon">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </span>
+                <span class="tr social-icon">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </span>
+
+
+            </div>
+
+
+        <button class="my-btn">  Sign in</button>
+
+    </div>
+       
+</body>
+</html>

@@ -1,0 +1,31 @@
+.p-title
+{
+    font-weight: bold;
+    font-size :20px;
+}
+.p-rating
+{
+    color:white;
+   background-color: green;
+   border-radius: 3px;
+   width: 50px;
+   /* margin-bottom: 15px; */
+}
+.span-p-rating
+{
+    margin-left: 4px;
+}
+.bold
+{
+    font-weight: bold;
+}
+.border
+{
+    border: 5px solid black;
+    margin: 20px;
+}
+.text-green
+{
+    color: green;
+}
+
